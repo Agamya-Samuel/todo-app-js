@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body {
+	background: #262161;
+	height: 100dvh;
+	width: 100dvw;
+}
+
+.form {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    align-items: center;
+    input {
+        border-radius: .5rem;
+        padding: .5rem;
+    }
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    font-size: 1.75em;
+    padding-top: 1.25rem;
+}
+
+.root {
+	display: flex;
+	flex-flow: row nowrap;
+	gap: 2rem;
+	padding: 2rem;
+	/* height: 100%; */
+}
+
+.root > div {
+	border: 8px solid red;
+	border-radius: 1rem;
+	background: #f7cf4e;
+    padding: .75rem;
+    width: 50%;
+}
+
+.input {
+	height: 50dvh;
+}
+
+.output-area {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .5rem;
+}
+
+#todo-list {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .75rem;
+}
+
+.todo {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr 0.75fr;
+    align-items: center;
+}
+
+button {
+    border-radius: .5rem;
+    padding: .5rem;
+}
