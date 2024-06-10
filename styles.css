@@ -2,7 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-    font-family:sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
 }
 
 body {
@@ -12,21 +13,22 @@ body {
 }
 
 .form {
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 1rem;
-    align-items: center;
-    input {
-        border-radius: .5rem;
-        padding: .5rem;
-    }
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 1rem;
+	align-items: center;
+	input {
+		border-radius: 0.5rem;
+		padding: 0.5rem;
+	}
 }
 
 .heading {
-    text-align: center;
-    color: white;
-    font-size: 1.75em;
-    padding-top: 1.25rem;
+	text-align: center;
+	color: white;
+	font-size: 1.75em;
+	padding-top: 1.25rem;
+	text-decoration: underline 2px;
 }
 
 .root {
@@ -41,8 +43,8 @@ body {
 	border: 8px solid red;
 	border-radius: 1rem;
 	background: #f7cf4e;
-    padding: .75rem;
-    width: 50%;
+	padding: 0.75rem;
+	width: 50%;
 }
 
 .input {
@@ -50,25 +52,33 @@ body {
 }
 
 .output-area {
-    display: flex;
-    flex-flow: column nowrap;
-    gap: .5rem;
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 0.5rem;
+}
+
+.sub-heading {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: 1fr 2fr 0.75fr;
+	align-items: center;
+	text-decoration: underline 2px;
 }
 
 #todo-list {
-    display: flex;
-    flex-flow: column nowrap;
-    gap: .75rem;
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 0.75rem;
 }
 
 .todo {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 2fr 0.75fr;
-    align-items: center;
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: 1fr 2fr 0.75fr;
+	align-items: center;
 }
 
 button {
-    border-radius: .5rem;
-    padding: .5rem;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
 }
