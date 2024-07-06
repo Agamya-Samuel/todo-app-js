@@ -82,3 +82,10 @@ button {
 	border-radius: 0.5rem;
 	padding: 0.5rem;
 }
+
+.footer {
+	text-align: center;
+	color: white;
+	font-size: xx-large;
+	padding: 0 3rem;
+}
